@@ -1,0 +1,49 @@
+body {
+
+	margin: 0px;
+	padding: 0px;
+}
+.textos{
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: justify;
+}
+h1 {
+	text-align: center;
+}
+.imgs {
+	width: 100px;
+	height: 100px;
+	
+}
+.imagens {
+	align-items: center;
+	padding-left: 40%;
+}
+.barra_topo {
+	padding: 10px;
+	height: 70px;
+	position: sticky;
+	top: 0px;
+	background-color: rgb(25, 68, 142);
+	
+}
+
+a {
+	color: rgb(0, 0, 0);
+	border: 2px solid rgb(54, 104, 202);
+	background-color: rgb(234, 235, 255);
+	padding: 4px
+}
+
+.links {
+	padding-left: 80%;
+	
+	color: rgb(255, 255, 255)
+}
+
+.footer {
+	padding-top: 10px;
+	font-size: 8px;
+	text-align: center;
+}

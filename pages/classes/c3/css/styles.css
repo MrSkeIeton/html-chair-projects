@@ -1,0 +1,170 @@
+/* comentário em CSS */
+
+body {
+	background-color: rgb(10, 10, 10);
+}
+
+
+p {
+	color: white;
+	font-style: italic
+}
+
+.paragrafo {
+	color: darkblue;
+	font-style: normal;
+	background-color: white;
+	padding: 5px;
+}
+
+#exclusive_title{
+	background-color: lightcoral;
+	color: black;
+	padding: 5px;
+}
+
+h2{
+	color: white;
+	border-bottom: 2px solid lightseagreen;
+}
+
+.title {
+	border-bottom: 2px solid lightgreen;
+}
+
+#another_title {
+	border-bottom: 2px solid palevioletred;
+}
+
+.hex {
+	color: #19d41c;
+}
+
+.hex2 {
+	color: #ff9d00;
+}
+
+.rgb {
+	color: rgb(123, 173, 249);
+}
+
+.bg_image {
+	border: none;
+	color: white;
+	background-image: url("../img/img_fundo.jpg");
+}
+
+.not_centered_bg,
+.centered_bg {
+	height: 200px;
+	width: 400px;
+	background-image: url("../img/cidade_fundo.jpg");
+}
+
+.centered_bg {
+	background-position: center;
+	background-size: cover;
+}
+
+.height-widht{
+	height: 150px;
+	width: 150px;
+	background-color: rgb(13, 200, 69);
+}
+
+.height-widht_2 {
+	height: 150px;
+	background-color: rgb(255, 197, 22);
+}
+
+.no_paddig {
+
+	background-color: lightcoral;
+	color: white;
+}
+
+.with_padding {
+	padding: 40px;
+	background-color: aquamarine;
+	color: black;
+}
+
+.padding_individual {
+	padding: 50px 0px 0px 25px;
+	background-color: rgb(226, 46, 46);
+}
+
+.no_border_box {
+	background-color: rgb(86, 86, 86);
+	color: black;
+	width: 400px;
+	padding: 50px;
+}
+
+.with_border_box {
+	background-color: rgb(52, 52, 52);
+	color: black;
+	width: 400px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+
+.border {
+	border: 5px solid red;
+	padding: 20px;
+	color: white;
+}
+.border2 {
+	border: 5px dotted greenyellow;
+	padding: 25px;
+	color: white;
+}
+.border3 {
+	border-left: 15px solid rgb(0, 4, 229);
+	padding: 25px;
+	color: white;
+}
+.border4 {
+	border-bottom: 5px double rgb(188, 74, 188);
+	padding: 25px;
+	color: white;
+}
+.border_arredondada {
+	margin-top: 25px;
+	border: 5px solid white;
+	padding: 15px;
+	border-radius: 15px;
+	color: white;
+}
+
+.marging {
+	margin: 10px;
+	background-color: rgb(150, 123, 73);
+	color: rgb(47, 30, 0);
+}
+.marging_top {
+	margin: 50px;
+	padding: 10px;	
+	background-color: rgb(58, 179, 56);
+	color: rgb(12, 73, 0);
+}
+.marging_short {
+	margin: 5px 10px 15px 20px;
+	background-color: rgb(56, 66, 179);
+	color: rgb(0, 0, 0);
+}
+
+.box_model {
+	margin: 20px;
+	padding: 15px 25px;
+	border: 3px dotted orangered;
+	border-radius: 40px;
+	width: 200px;
+	height: 100px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
