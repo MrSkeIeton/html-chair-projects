@@ -27,12 +27,12 @@ body {
 }
 
 .love {
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/img3.jpg");
     transition: 1s;
 }
 
 .u {
-    background-image: url("../img/img3.jpg");
+    background-image: url("../img/img2.jpg");
     transition: 1s;
 }
 
