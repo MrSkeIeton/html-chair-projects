@@ -1,47 +1,20 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(82, 0, 122);
-    margin-top: 100px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.i, .love, .u{
-    height: 140px;
-    width: 100px;
-    background-position: center;
-    background-size: cover;
-    margin-left: 15px;
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	background-color: lightcoral;
+	padding: 200px;
 }
 
-.iloveu {
-    margin-top: 100px;
-    display: flex;
+.classes, .assignments, .tests, .extra {
+	border: 2px solid black;
+	padding: 50px;
 }
 
-.i {
-    background-image: url("../img/img1.jpg");
-    transition: 1s;
-}
-
-.love {
-    background-image: url("../img/img3.jpg");
-    transition: 1s;
-}
-
-.u {
-    background-image: url("../img/img2.jpg");
-    transition: 1s;
-}
-
-.i:hover{
-    background-image: url("../img/frame1.png");
-}
-.love:hover{
-    background-image: url("../img/frame2.png");
-}
-.u:hover{
-    background-image: url("../img/frame3.png");
-}
