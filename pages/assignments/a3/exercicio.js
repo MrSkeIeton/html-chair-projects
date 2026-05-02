@@ -7,12 +7,12 @@ let notebook = {
 };
 
 const input_usuario = () => {
-	
-	notebook.marca = prompt("Marca: ");
-	notebook.RAM_GB = prompt("Quantidade de ram: ");
-	notebook.GPU_GB = prompt("Quantidade de Vram:")
-	notebook.tela = prompt("Tamanho da tela: ")
-	notebook.preco = prompt("Preco do notebook: ")
+	notebook.marca = prompt("Marca:");
+	notebook.RAM_GB = parseInt(prompt("Quantidade de ram:"));
+	notebook.GPU_GB = parseInt(prompt("Quantidade de Vram:"));
+	notebook.tela = parseFloat(prompt("Tamanho da tela:"));
+	notebook.preco = parseFloat(prompt("Preço do notebook:"));
 };
 
+console.log(notebook);
 input_usuario();
